@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background: white;
+}
+
+.list__photos {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+.pagination {
+  display: flex;
+  list-style-type: none;
+  flex-wrap: wrap;
+}
+
+.pagination a {
+  color: black;
+  padding: 8px 16px;
+  text-decoration: none;
+  border: 1px solid black;
+  margin-top: 15px;
+}
+
+.pagination a:hover {
+    border: 1px solid red;
+   background-color: rgb(245, 182, 245);
+}
